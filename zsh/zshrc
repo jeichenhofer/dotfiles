@@ -1,0 +1,7 @@
+# configure zsh completion and include dotfiles
+autoload -U compinit; compinit
+_comp_options+=(globdots)
+
+# load spaceship prompt
+export SPACESHIP_CONFIG="$ZDOTDIR/spaceship-config.zsh"
+source "$ZDOTDIR/spaceship/spaceship.zsh"
