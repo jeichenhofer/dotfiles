@@ -5,3 +5,6 @@ _comp_options+=(globdots)
 # load spaceship prompt
 export SPACESHIP_CONFIG="$ZDOTDIR/spaceship-config.zsh"
 source "$ZDOTDIR/spaceship/spaceship.zsh"
+
+bindkey "^[b" backward-word
+bindkey "^[f" forward-word
