@@ -8,3 +8,6 @@ source "$ZDOTDIR/spaceship/spaceship.zsh"
 
 bindkey "^[b" backward-word
 bindkey "^[f" forward-word
+
+# add go binaries to path
+export PATH="$PATH:$HOME/go/bin:$HOME/go/godev/bin"
