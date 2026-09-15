@@ -4,3 +4,5 @@ SPACESHIP_TIME_SHOW=true
 SPACESHIP_USER_SHOW=never
 # do not truncate path in repos
 SPACESHIP_DIR_TRUNC_REPO=false
+# do not show Python virtualenv
+SPACESHIP_VENV_SHOW=false
